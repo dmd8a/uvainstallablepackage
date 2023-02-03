@@ -1,0 +1,3 @@
+def space_compress(string):
+    assert type(string)==str, f"Expected string but got {type(string)}"
+    return ' '.join(string.split())
